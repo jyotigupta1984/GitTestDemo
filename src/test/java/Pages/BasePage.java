@@ -12,7 +12,7 @@ public class BasePage {
 	public WebDriverWait wait;
 	
 	public  BasePage(WebDriver driver){
-		
+		System.out.println("Test");
 		this.driver=driver;
 		wait = new WebDriverWait(driver, 20);
 		

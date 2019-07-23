@@ -15,6 +15,7 @@ public class HomePage extends BasePage{
 	
 	public HomePage launchUrl(){
 		System.out.println("Enter in launchUrl");
+		System.out.println("hi");
 		 driver.get(baseUrl);
 	        return this;
 		
